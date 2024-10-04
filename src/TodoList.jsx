@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react"
-import "./Todolist.css"
+import './Todolist.css';
 import Icone from "./assets/icone3.png"
 function TodoList(){
     const listaStorage = localStorage.getItem('Lista');
